@@ -39,7 +39,7 @@ nav {
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: black;
 }
 
 /* Burger menu for responsiveness */
@@ -88,7 +88,7 @@ button:hover {
 
 /* Links Hover Effect */
 a:hover {
-    color: #005bb5;
+    color: black
 }
 
 /* Fade-In Animation */
@@ -125,7 +125,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: black;
 }
 
 .container {
@@ -144,7 +144,7 @@ ul {
 
 ul li {
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
 }
 
 ul li:last-child {
