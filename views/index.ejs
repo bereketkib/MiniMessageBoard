@@ -33,9 +33,9 @@
     <ul>
         <% messages.forEach(message => { %>
             <li>
-                <i class="fas fa-user"></i> <strong><%= message.user %></strong>: <%= message.text %> 
+                <i class="fas fa-user"></i> <strong><%= message.user_name %></strong>: <%= message.text %> 
                 <em>(<%= message.added.toDateString() %>)</em>
-                <a href="/message/<%= messages.indexOf(message) %>"><i class="fas fa-eye"></i> Open</a>
+                <a href="/message/<%= message.id %>"><i class="fas fa-eye"></i> Open</a>
             </li>            
         <% }); %>
     </ul>
